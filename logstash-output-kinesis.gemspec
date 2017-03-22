@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.requirements << "jar 'com.amazonaws:aws-java-sdk-sts', '1.11.63'"
   s.requirements << "jar 'org.slf4j:slf4j-simple', '1.7.13'"
 
-  s.add_runtime_dependency 'jar-dependencies', '~> 0.3.7'
+  s.add_runtime_dependency 'jar-dependencies', '~> 0.3.4'
 
   # Gem dependencies
   s.add_runtime_dependency "logstash-core-plugin-api", ">= 1.60", "<= 2.99"
