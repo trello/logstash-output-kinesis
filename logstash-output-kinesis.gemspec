@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
   s.platform = "java"
 
   # Jar dependencies
-  s.requirements << "jar 'com.amazonaws:amazon-kinesis-producer', '0.12.3'"
+  s.requirements << "jar 'com.amazonaws:amazon-kinesis-producer', '0.12.6'"
 
   # KPL uses (1.11,1.12] as version range. Let's lock the version
   s.requirements << "jar 'com.amazonaws:aws-java-sdk-core', '1.11.128'"
